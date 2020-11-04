@@ -195,12 +195,12 @@ public class Personagem {
 
         ConexaoBD conexaobd = new ConexaoBD();
         Connection conexao = conexaobd.conectar();
-        
+        /*
         String[] colunas = {"nome", "raca", "classe", "nivel"};
         JFrame window = new JFrame("personagens");
         JPanel panel = new JPanel();
         JTable sheet = new JTable(dados, colunas);
-        
+        */
         
         try {
             Statement stms = conexao.createStatement();
