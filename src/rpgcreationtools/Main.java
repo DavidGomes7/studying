@@ -72,7 +72,7 @@ public class Main {
 
         do {
             // menu principal		
-            Object[] options = {"Personagem", "Rolar Dados", "Item", "Sair"};
+            Object[] options = {"Personagem", "Rolar Dados", "Sair"};
             // armazena o valor da opçao selecionada do JOptionPane na variavel int
             opcao = JOptionPane.showOptionDialog(null, "Bem vindo ao RpgCreationTools!", "RpgCreationTools",
                     JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, options, options[0]);
@@ -83,7 +83,7 @@ public class Main {
                 case 1:
                     menuRolarDados();
             }
-        } while (opcao != 3 );
+        } while (opcao != 2 );
 
     }
 }
